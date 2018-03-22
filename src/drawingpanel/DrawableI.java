@@ -13,7 +13,7 @@ public interface DrawableI {
     * @param g2d Graphics2D object used for drawing
     * @param currentBrightness the current brightness being used to draw
      */
-    public void drawShape(Graphics2D g2d);
+    public void draw(Graphics2D g2d);
 
 
 }

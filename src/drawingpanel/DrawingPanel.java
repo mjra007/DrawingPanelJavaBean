@@ -60,7 +60,7 @@ public class DrawingPanel extends JPanel implements View {
         // all the shapes stored in it
         for (DrawableI aShape : getDrawings().values()) {
             DrawableI ld = (DrawableI) aShape;
-            ld.drawShape(g2d);
+            ld.draw(g2d);
 
         }
 
